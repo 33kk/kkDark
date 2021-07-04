@@ -1,4 +1,4 @@
-local p = require('colors')
+local p = require('kkDark.colors')
 local lush = require('lush')
 local hsluv = lush.hsluv
 
