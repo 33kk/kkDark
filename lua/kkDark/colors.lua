@@ -23,7 +23,7 @@ return {
   magenta_bright = hsluv(300, 85, 75).hex,
   cyan = hsluv(190, 65, 75).hex,
   cyan_bright = hsluv(190, 65, 90).hex,
-	gray_dark = hsluv(220, 15, 40).hex,
+  gray_dark = hsluv(220, 15, 35).hex,
   gray = hsluv(0, 0, 90).hex,
   gray_bright = hsluv(0, 0, 95).hex
 }
