@@ -14,8 +14,8 @@ let g:colors_name="kkDark"
 "
 " The performance impact of this call can be measured in the hundreds of
 " *nanoseconds* and such could be considered "production safe".
-lua package.loaded['lush_theme.kkDark'] = nil
+lua package.loaded['kkDark'] = nil
 
 " include our theme file and pass it to lush to apply
-lua require('lush')(require('lush_theme.kkDark'))
+lua require('lush')(require('kkDark'))
 
