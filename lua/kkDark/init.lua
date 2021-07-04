@@ -51,9 +51,7 @@ local theme = lush(function()
     -- SpellLocal   { }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     -- SpellRare    { }, -- Word that is recognized by the spellchecker as one that is hardly ever used.  |spell| Combined with the highlighting used otherwise.
     StatusLine   { Pmenu }, -- status line of current window
-    StatusLineNC { Pmenu }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
-    StatusLineTerm   { StatusLine },
-    StatusLineTermNC { StatusLineNC },
+    -- StatusLineNC { }, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     TabLine      { Pmenu }, -- tab pages line, not active tab page label
     TabLineFill  { Pmenu }, -- tab pages line, where there are no labels
     TabLineSel   { PmenuSel }, -- tab pages line, active tab page label
