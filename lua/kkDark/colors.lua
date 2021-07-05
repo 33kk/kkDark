@@ -13,7 +13,8 @@ return {
   red_bright = hsluv(12, 85, 50).hex,
   green = hsluv(127, 60, 50).hex,
   green_bright = hsluv(127, 50, 75).hex,
-  orange_bright = hsluv(30, 80, 60).hex,
+  orange = hsluv(30, 80, 55).hex,
+  orange_bright = hsluv(30, 80, 65).hex,
   yellow = hsluv(60, 70, 75).hex,
   yellow_bright = hsluv(60, 80, 75).hex,
   blue = hsluv(250, 70, 60).hex,
@@ -22,9 +23,10 @@ return {
   magenta = hsluv(300, 60, 65).hex,
   magenta_bright = hsluv(300, 85, 75).hex,
   cyan = hsluv(190, 65, 75).hex,
-  cyan_bright = hsluv(190, 65, 90).hex,
-  gray_dark = hsluv(220, 15, 35).hex,
-  gray = hsluv(0, 0, 90).hex,
-  gray_bright = hsluv(0, 0, 95).hex
+  cyan_bright = hsluv(190, 65, 85).hex,
+  gray = hsluv(220, 15, 35).hex,
+  gray_bright = hsluv(220, 15, 45).hex,
+  white = hsluv(0, 0, 90).hex,
+  white_bright = hsluv(0, 0, 95).hex
 }
 
