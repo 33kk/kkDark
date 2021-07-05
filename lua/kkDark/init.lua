@@ -13,7 +13,7 @@ local theme = lush(function()
     -- Cursor       { }, -- character under the cursor
     -- lCursor      { }, -- the character under the cursor when |language-mapping| is used (see "guicursor")
     -- CursorIM     { }, -- like Cursor, but used when in IME mode |CursorIM|
-    CursorColumn { bg = p.gray }, -- Screen-column at the cursor, when "cursorcolumn" is set.
+    CursorColumn { bg = p.black_bright }, -- Screen-column at the cursor, when "cursorcolumn" is set.
     CursorLine   { CursorColumn }, -- Screen-line at the cursor, when "cursorline" is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
     ColorColumn  { CursorColumn }, -- used for the columns set with "colorcolumn"
     Directory    { Normal }, -- directory names (and other special names in listings)
@@ -24,8 +24,8 @@ local theme = lush(function()
     -- TermCursor   { }, -- cursor in a focused terminal
     -- TermCursorNC { }, -- cursor in an unfocused terminal
     ErrorMsg     { fg = p.red_bright, Normal }, -- error messages on the command line
-    VertSplit    { fg = p.gray_dark }, -- the column separating vertically split windows
-    LineNr       { fg = p.gray_dark, Normal }, -- Line number for ":number" and ":#" commands, and when "number" or "relativenumber" option is set.
+    VertSplit    { fg = p.gray }, -- the column separating vertically split windows
+    LineNr       { fg = p.gray, Normal }, -- Line number for ":number" and ":#" commands, and when "number" or "relativenumber" option is set.
     CursorLineNr { Normal }, -- Like LineNr when "cursorline" or "relativenumber" is set for the cursor line.
     Folded       { LineNr }, -- line used for closed folds
     FoldColumn   { Folded }, -- "foldcolumn"
@@ -34,7 +34,7 @@ local theme = lush(function()
     MsgSeparator { MsgArea, gui = "inverse" }, -- Separator for scrolled messages, `msgsep` flag of "display"
     ModeMsg      { MsgArea }, -- "showmode" message (e.g., "-- INSERT -- ")
     MoreMsg      { MsgArea }, -- |more-prompt|
-    NonText      { fg = p.gray_dark }, -- "@" at the end of the window, characters from "showbreak" and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn"t fit at the end of the line). See also |hl-EndOfBuffer|.
+    NonText      { fg = p.gray }, -- "@" at the end of the window, characters from "showbreak" and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn"t fit at the end of the line). See also |hl-EndOfBuffer|.
     EndOfBuffer  { NonText }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
     Pmenu        { NormalFloat }, -- Popup menu: normal item.
     PmenuSel     { Pmenu, gui = "inverse" }, -- Popup menu: selected item.
