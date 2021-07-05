@@ -25,7 +25,7 @@ local theme = lush(function()
     -- TermCursorNC { }, -- cursor in an unfocused terminal
     ErrorMsg     { fg = p.red_bright, Normal }, -- error messages on the command line
     VertSplit    { fg = p.gray }, -- the column separating vertically split windows
-    LineNr       { fg = p.gray, Normal }, -- Line number for ":number" and ":#" commands, and when "number" or "relativenumber" option is set.
+    LineNr       { fg = p.gray_bright, Normal }, -- Line number for ":number" and ":#" commands, and when "number" or "relativenumber" option is set.
     CursorLineNr { Normal }, -- Like LineNr when "cursorline" or "relativenumber" is set for the cursor line.
     Folded       { LineNr }, -- line used for closed folds
     FoldColumn   { Folded }, -- "foldcolumn"
@@ -46,7 +46,7 @@ local theme = lush(function()
     IncSearch    { Search }, -- "incsearch" highlighting; also used for the text replaced with ":s///c"
     Substitute   { Search }, -- |:substitute| replacement text highlighting
     MatchParen   { Search }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
-    SpecialKey   { NonText }, -- Unprintable characters: text displayed differently from what it really is.  But not "listchars" whitespace. |hl-Whitespace|
+    SpecialKey   { fg = p.gray_bright }, -- Unprintable characters: text displayed differently from what it really is.  But not "listchars" whitespace. |hl-Whitespace|
     SpellBad     { sp = p.red_bright, gui = "undercurl" }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise. 
     SpellCap     { sp = p.orange_bright, gui = "undercurl" }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal   { sp = p.cyan_bright, gui = "undercurl" }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
@@ -59,7 +59,7 @@ local theme = lush(function()
     Visual       { Search }, -- Visual mode selection
     VisualNOS    { Visual }, -- Visual mode selection when vim is "Not Owning the Selection".
     WarningMsg   { bg = p.yellow, fg = p.black }, -- warning messages
-    Whitespace   { NonText }, -- "nbsp", "space", "tab" and "trail" in "listchars"
+    Whitespace   { fg = p.gray_bright }, -- "nbsp", "space", "tab" and "trail" in "listchars"
     WildMenu     { NormalFloat }, -- current match in "wildmenu" completion
 
     -- These groups are not listed as default vim groups,
