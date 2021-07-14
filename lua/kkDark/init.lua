@@ -222,6 +222,8 @@ local theme = lush(function()
     StartifyFile    { Identifier },
     StartifyPath    { Normal },
     StartifyHeader  { Normal },
+
+    CompeDocumentation { Pmenu }
   }
 end)
 
