@@ -1,6 +1,35 @@
 local lush = require('lush')
 local hsluv = lush.hsluv
 
+-- local hex = {
+-- 	bg = "#111111",
+-- 	black = "#1b1b1b",
+-- 	black_bright = "#262626",
+-- 	black_dark = "#0b0b0b",
+-- 	blue = "#1b548d",
+-- 	blue_bright = "#266db4",
+-- 	cyan = "#73c6c5",
+-- 	cyan_bright = "#85e4e2",
+-- 	fg = "#e7e1e2",
+-- 	gray = "#3b3b3b",
+-- 	gray_bright = "#525252",
+-- 	green = "#4a8449",
+-- 	green_bright = "#83c981",
+-- 	magenta = "#cb83d9",
+-- 	magenta_bright = "#e79ff5",
+-- 	orange = "#c56c39",
+-- 	orange_bright = "#ea8246",
+-- 	purple = "#7959ff",
+-- 	red = "#c53334",
+-- 	red_bright = "#e42c2e",
+-- 	red_light = "#e08484",
+-- 	white = "#e2e2e2",
+-- 	white_bright = "#f1f1f1",
+-- 	white_dark = "#9e9e9e",
+-- 	yellow = "#dbb365",
+-- 	yellow_bright = "#dfb252"
+-- }
+
 return {
   fg = hsluv(220, 15, 90).hex,
   bg = hsluv(0, 0, 5).hex,
@@ -11,12 +40,13 @@ return {
   red_light = hsluv(12, 60, 65).hex,
   red = hsluv(12, 75, 45).hex,
   red_bright = hsluv(12, 85, 50).hex,
-  green = hsluv(127, 60, 50).hex,
-  green_bright = hsluv(127, 50, 75).hex,
+  green = hsluv(127, 75, 50).hex,
+  green_bright = hsluv(127, 60, 75).hex,
   orange = hsluv(30, 80, 55).hex,
   orange_bright = hsluv(30, 80, 65).hex,
   yellow = hsluv(60, 70, 75).hex,
   yellow_bright = hsluv(60, 80, 75).hex,
+  blue_dark = hsluv(250, 90, 45).hex,
   blue = hsluv(250, 70, 60).hex,
   blue_bright = hsluv(250, 80, 65).hex,
   purple = hsluv(270, 100, 50).hex,
@@ -24,9 +54,9 @@ return {
   magenta_bright = hsluv(300, 85, 75).hex,
   cyan = hsluv(190, 65, 75).hex,
   cyan_bright = hsluv(190, 65, 85).hex,
-  gray = hsluv(220, 15, 25).hex,
-  gray_bright = hsluv(220, 15, 35).hex,
+  gray = hsluv(0, 0, 25).hex,
+  gray_bright = hsluv(0, 0, 35).hex,
+  white_dark = hsluv(0, 0, 65).hex,
   white = hsluv(0, 0, 90).hex,
   white_bright = hsluv(0, 0, 95).hex
 }
-
