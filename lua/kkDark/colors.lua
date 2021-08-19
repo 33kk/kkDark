@@ -41,7 +41,7 @@ return {
 	red_light = hsluv(12, 60, 65).hex,
 	red = hsluv(12, 75, 45).hex,
 	red_bright = hsluv(12, 85, 50).hex,
-	green = hsluv(127, 75, 50).hex,
+	green = hsluv(127, 65, 50).hex,
 	green_bright = hsluv(127, 60, 75).hex,
 	orange = hsluv(30, 80, 55).hex,
 	orange_bright = hsluv(30, 80, 65).hex,
