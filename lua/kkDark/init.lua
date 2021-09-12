@@ -1,6 +1,4 @@
 local lush = require("lush")
-local hsluv = lush.hsluv
-
 local p = require("kkDark.colors")
 
 local theme = lush(function()
@@ -17,10 +15,10 @@ local theme = lush(function()
 		CursorLine   { CursorColumn }, -- Screen-line at the cursor, when "cursorline" is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
 		ColorColumn  { CursorColumn }, -- used for the columns set with "colorcolumn"
 		Directory    { Normal }, -- directory names (and other special names in listings)
-		DiffAdd      { fg = p.black_dark, bg = p.green_bright }, -- diff mode: Added line |diff.txt|
-		DiffChange   { fg = p.black_dark, bg = p.yellow }, -- diff mode: Changed line |diff.txt|
-		DiffDelete   { fg = p.black_dark, bg = p.red_bright }, -- diff mode: Deleted line |diff.txt|
-		DiffText     { fg = p.black, bg = p.green }, -- diff mode: Changed text within a changed line |diff.txt|
+		DiffAdd      { fg = p.fg, bg = p.green_dark }, -- diff mode: Added line |diff.txt|
+		DiffChange   { fg = p.fg, bg = p.yellow_dark }, -- diff mode: Changed line |diff.txt|
+		DiffDelete   { fg = p.fg, bg = p.red_dark }, -- diff mode: Deleted line |diff.txt|
+		DiffText     { fg = p.fg, bg = p.green_darker }, -- diff mode: Changed text within a changed line |diff.txt|
 		-- TermCursor   { }, -- cursor in a focused terminal
 		-- TermCursorNC { }, -- cursor in an unfocused terminal
 		ErrorMsg     { fg = p.red_bright, Normal }, -- error messages on the command line
