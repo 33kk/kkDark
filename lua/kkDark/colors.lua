@@ -1,3 +1,4 @@
+-- TODO: Reorganize palette
 -- local lush = require("lush")
 -- local hsluv = lush.hsluv
 
@@ -21,7 +22,8 @@
 -- 	yellow_dark = hsluv(60, 70, 75).darken(40).hex,
 -- 	yellow = hsluv(60, 70, 75).hex,
 -- 	yellow_bright = hsluv(60, 80, 75).hex,
--- 	blue_dark = hsluv(250, 90, 45).hex,
+-- 	blue_darker = hsluv(250, 70, 20).hex,
+-- 	blue_dark = hsluv(250, 85, 40).hex,
 -- 	blue = hsluv(250, 70, 60).hex,
 -- 	blue_bright = hsluv(250, 80, 65).hex,
 -- 	purple = hsluv(270, 100, 50).hex,
@@ -43,7 +45,8 @@ return {
 	black_dark = "#0B0B0B",
 	blue = "#5B93DC",
 	blue_bright = "#67A0EC",
-	blue_dark = "#266DB4",
+	blue_dark = "#29609D",
+	blue_darker = "#1B314E",
 	cyan = "#73C6C5",
 	cyan_bright = "#85E4E2",
 	fg = "#DDE4E7",

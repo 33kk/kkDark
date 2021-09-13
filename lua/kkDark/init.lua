@@ -40,7 +40,7 @@ local theme = lush(function()
 		PmenuThumb   { PmenuSel }, -- Popup menu: Thumb of the scrollbar.
 		Question     { MsgArea }, -- |hit-enter| prompt and yes/no questions
 		-- QuickFixLine { }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
-		Search       { bg = p.cyan, fg = p.black }, -- Last search pattern highlighting (see "hlsearch").  Also used for similar items that need to stand out.
+		Search       { bg = p.blue_darker, fg = p.black }, -- Last search pattern highlighting (see "hlsearch").  Also used for similar items that need to stand out.
 		IncSearch    { Search }, -- "incsearch" highlighting, also used for the text replaced with ":s///c"
 		Substitute   { Search }, -- |:substitute| replacement text highlighting
 		MatchParen   { Search }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
