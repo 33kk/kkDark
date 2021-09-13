@@ -2,7 +2,7 @@
 set background=dark
 let g:colors_name="kkDark"
 
-"Theme built with Lush.nvim, exported at Mon 13 Sep 2021 05:02:51 AM EEST
+"Theme built with Lush.nvim, exported at Mon 13 Sep 2021 05:30:31 AM EEST
 highlight! link StartifySlash Normal
 highlight! link StartifyFile Identifier
 highlight TSEmphasis guifg=#DDE4E7 guibg=#111111 guisp=NONE gui=italic blend=NONE
