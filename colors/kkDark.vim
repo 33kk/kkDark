@@ -122,7 +122,7 @@ highlight SpecialKey guifg=#525252 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight! link TSConstructor Type
 highlight! link TSFloat Float
 highlight! link VisualNOS Visual
-highlight Search guifg=#1B1B1B guibg=#1B314E guisp=NONE gui=NONE blend=NONE
+highlight Search guibg=#1B314E guisp=NONE gui=NONE blend=NONE
 highlight! link CursorLineNr Normal
 highlight String guifg=#E08484 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Normal guifg=#DDE4E7 guibg=#111111 guisp=NONE gui=NONE blend=NONE
